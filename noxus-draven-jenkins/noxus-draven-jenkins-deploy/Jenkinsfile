@@ -9,7 +9,7 @@ pipeline {
     }
 
     environment {
-        JOB_NAME = 'pipeline-demo'
+        //JOB_NAME = 'pipeline-demo'
     }
 
     parameters {
