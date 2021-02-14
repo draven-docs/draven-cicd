@@ -14,8 +14,6 @@ pipeline {
 
     parameters {
             booleanParam(name: 'FAST_MODE', defaultValue: false, description: '此操作将会跳过单元测试以及代码质量检查。'),
-            booleanParam(name: 'DEMO_SSS', defaultValue: true, description: '此操作将会跳过单元测试以及代码质量检查。')
-
     }
 
     stages {
