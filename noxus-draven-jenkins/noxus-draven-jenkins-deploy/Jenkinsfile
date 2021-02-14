@@ -67,7 +67,7 @@ pipeline {
                 }
             }
             steps {
-                cho "开始代码检查"
+                echo "开始代码检查"
                 //{
                 //withSonarQubeEnv( installationName: 'sonar_server')
 
