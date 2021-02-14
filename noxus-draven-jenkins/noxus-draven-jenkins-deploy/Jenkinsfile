@@ -84,7 +84,8 @@ pipeline {
             }
             steps {
                 timeout(time: 1, unit: 'HOURS') {
-                    waitForQualityGate abortPipeline: true
+                echo "检查结果分析结束"
+                    //waitForQualityGate abortPipeline: true
                 }
             }
         }
