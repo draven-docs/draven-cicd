@@ -67,7 +67,8 @@ pipeline {
                 }
             }
             steps {
-                withSonarQubeEnv( installationName: 'sonar_server') {
+                cho "开始代码检查"
+                //withSonarQubeEnv( installationName: 'sonar_server') {
                     /* sh './mvnw sonar:sonar' */
                 }
             }
