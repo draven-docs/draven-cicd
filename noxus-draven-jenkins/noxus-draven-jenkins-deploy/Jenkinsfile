@@ -8,9 +8,9 @@ pipeline {
         label 'master'
     }
 
-    environment {
+    //environment {
         //JOB_NAME = 'pipeline-demo'
-    }
+    //}
 
     parameters {
             booleanParam(name: 'FAST_MODE', defaultValue: false, description: '此操作将会跳过单元测试以及代码质量检查。')
