@@ -55,7 +55,7 @@ pipeline {
            steps{
                 script {
                     echo "开始运行测试"
-                    sh "./mvnw clean test jacoco:report"
+                   /*  sh "./mvnw clean test jacoco:report" */
                 }
            }
         }
@@ -68,7 +68,7 @@ pipeline {
             }
             steps {
                 withSonarQubeEnv( installationName: 'sonar_server') {
-                    sh './mvnw sonar:sonar'
+                    /* sh './mvnw sonar:sonar' */
                 }
             }
         }
